@@ -1,0 +1,18 @@
+func fib(n) {
+  let fib_0 1;
+  let fib_1 1;
+  if (n <= 0) return 0;
+  if (n == 1) return 1;
+  let i n;
+  while (i = i - 1) {
+    let fib_0p fib_0;
+    fib_0 = fib_0 + fib_1;
+    fib_1 = fib_0p;
+    print fib_1;
+  }
+  return fib_1;
+}
+
+func main(argc, argv) {
+  print fib(?);
+}
